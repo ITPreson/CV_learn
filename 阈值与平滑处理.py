@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 def read_img():
     # 阈值操作
     img = cv2.imread("img/cat.jpg", cv2.IMREAD_GRAYSCALE)
